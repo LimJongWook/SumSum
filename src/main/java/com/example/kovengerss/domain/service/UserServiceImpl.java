@@ -159,8 +159,8 @@ public class UserServiceImpl implements UserService {
             int port = 465;
 
             // account Id, Password
-            String username = "dnrwhddla300@naver.com";            // 실제 네이버 이메일
-            String password = "*whddnr*!";              // 실제 네이버 비밀번호  #commit 시 항상 지워주고 보내주세요.
+            String username = "";            // 실제 네이버 이메일
+            String password = "";              // 실제 네이버 비밀번호  #commit 시 항상 지워주고 보내주세요.
 
             java.util.Properties props = System.getProperties();                                   // SMTP 서버 정보 설정
             props.put("mail.smtp.host", host);
